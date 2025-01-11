@@ -1,2 +1,4 @@
-console.log('test.js');
-console.log('sameera');
+//give me js code for find the odd numbers in an array
+function findOdd(arr) {
+    return arr.filter(num => num % 2 !== 0);
+  }
